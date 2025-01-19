@@ -38,7 +38,10 @@ educational_games/
 ├── templates/            
 |   ├── index.html        
 |   ├── select.html         
-|   └── game_over.html    
+|   └── quiz.html
+|   └── hangman.html
+|   └── score.html
+|   └── hangman_score.html    
 |
 └── static/               
     ├── styles.css
