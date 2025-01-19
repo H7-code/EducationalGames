@@ -6,7 +6,6 @@ Welcome to **Educational Games**, a Python-based project built using Flask. This
 
 1. **Pop Quiz Game**: Test your knowledge on topics like Python, HTML, and CSS.  
 2. **Hangman Game**: A classic word-guessing game with educational questions.  
-3. **Keyword Clicker Game**: Identify and click the correct keywords related to a selected course (Python, HTML, or CSS) within a 60-second timer.
 
 These games are aimed at enhancing learning through play, offering an engaging way to reinforce knowledge in web development and programming.
 
@@ -17,8 +16,7 @@ These games are aimed at enhancing learning through play, offering an engaging w
 To run this project, you need the following dependencies installed:
 
 1. **Python** (>= 3.7)  
-2. **Flask** (>= 2.0)  
-3. **Jinja2** (for templating)  
+2. **Flask** (>= 2.0)    
 
 You can install the required Python packages using the command:
 
@@ -35,17 +33,16 @@ The project is organized as follows:
 ```
 educational_games/
 |
-├── app.py                # Main Flask application
+├── app.py                
 |
-├── templates/            # HTML templates for rendering pages
-|   ├── index.html        # Home page
-|   ├── select.html       # Game selection page
-|   ├── keyword_clicker.html  # Keyword Clicker game interface
-|   └── game_over.html    # Game over screen
+├── templates/            
+|   ├── index.html        
+|   ├── select.html         
+|   └── game_over.html    
 |
-└── static/               # Static files for styles and images
-    ├── styles.css        # CSS styles for the project
-    └── bg.jpg            # Background image
+└── static/               
+    ├── styles.css
+    └── bg.jpg            
 ```
 
 ---
